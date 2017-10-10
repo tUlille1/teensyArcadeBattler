@@ -2,5 +2,5 @@ site_name: My Docs
 pages:
   - Home: index.md
   - About: about.md
-  -GitHub et MKDocs: githubMKDocs.md
+  - GitHubetMKDocs: githubMKDocs.md
 theme: readthedocs

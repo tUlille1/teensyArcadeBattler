@@ -15,7 +15,7 @@ Rendez vous sur [GitHub](http://github.com) et laissez vous guider dans la créa
 Une fois créé, votre dépôt est en ligne et on peut donc l'atteindre depuis n'importe quel ordinateur connecté au web. C'est ici qu'il faut bien comprendre comment nous allons travailler avec notre dépôt GitHub: nous allons rapatrier l'ensemble du dépôt sur notre ordinateur, créer ou modifier les différents fichiers de code et une fois que nous estimons avoir fini une tâche rééxpédier les mofications vers le dépôt. Ce sont les opérations de clonage et de push.
 
 
-# Création d'une documentation à l'aide de MKdocs  
+# Création d'une documentation à l'aide de MKdocs
 
 La documentation que je vais créer sera du même type que ce que l'on peut trouver pour un projet comme [MicroPython](http://docs.micropython.org/en/latest/esp8266/)
 
@@ -45,3 +45,7 @@ Une fois que tout vous semble correct, la commande:
 va permettre de générer tous les fichiers et dossiers nécessaires à la publication de la documentation en ligne. Une fois fait, une dernière commande va permmettre de pousser la documentation vers github:
 
     mkdocs gh-deploy
+
+Une fois effectué, vous obtenez un message vous disant que votre documentaiton sera rapidement disonible ainsi qu'une adresse. Dans mon cas: [https://tulille1.github.io/teensyArcadeBattler/](https://tulille1.github.io/teensyArcadeBattler/)
+
+Lorsque vous voudrez effectuer des modifications dans la documentation, il faudra réitérer l'étape de *build* et l'étape de *deploy*
