@@ -1,1 +1,10 @@
-# teensyArcadeBattler
+# Vers une publications efficaces de projets (étudiants) collaboratifs
+  Que celui qui a déjà bidouillé avec un arduino et  n'est jamais tombé sur un dépôt github (comme ceux d'[adafruit](https://github.com/adafruit) ou de [sparkfun](https://github.com/sparkfun)) me jette la première pierre :wink:
+  Pour ceux qui l'ignorent, un dépôt comme ceux que l'on trouve sur [GitHub](https://github.com/sparkfun) est un espace dédié à l'hébergement de code informatique. Pour ma part, ayant toujours travaillé seul sur des développement de faible envergure, je n'ai jamais par le passé été amené à utiliser un hébergement en ligne. Je m'en tenais aux traditionnels projet1version1.ino, projetv2a1.ino... et les fichiers s'accumulaient. Ne m'y retrouvant pas toujours, je refaisais souvent la même chose dix fois... Avec l'utilisation des dépôts, cette époque est revolue et je souhaite que tout étudiant qui souhaite se lancer dans un projet en électronique du type de ceux que l'on trouve un peu partout sur le web puisse le faire d'une façon organisée, efficace et qui pourra être passé à la postérité...
+
+  Le but de ce dépôt est de permettre aux lecteurs (public étudiant en électronique initialement) de se familiariser avec une façon de travailler utilisant git, le langage markdown, MKDocs,... notions qui ne sont pas toujours abordées au cours d'un cursus du type Electrical Engineering. Ce travail s'appuye sur des réalisations éffectuées au fablab situé sur le campus de l'Université de Lille 1, département EEA.
+  Le rédacteur de ce dépôt n'étant pas informaticien, s'éfforcera d'être le plus précis sur les termes et techniques employées mais le lecteur plus aguérri est évidement invité à me contacter pour échanger sur ce sujet.
+
+  Pour finir, le titre teensyArcadeBattler, est en fait un projet personnel de rélaisation d'une interface midi simple pour controller des logiciels de création musical (ou DAWs, type Ableton, cubase...). Ceci servira de support et d'exemple pour illustrer les différentes étapes de création d'un projet.
+
+  Au niveau de la documentation d'un projet, pour des projets très simple et cours, le fichier README.md (le fichier que vous lisez actuellement :smile: ) peut faire l'affaire mais un autre outils, [MKdocs](http://www.mkdocs.org/), fera encore plus l'affaire!
