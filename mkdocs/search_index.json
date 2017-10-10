@@ -32,12 +32,12 @@
         }, 
         {
             "location": "/about/", 
-            "text": "A propos\n\n\ncr\u00e9\u00e9 depuis la commande:\n\n\necho texte \u00e0 rentrer \n about.md", 
+            "text": "A propos\n\n\ncr\u00e9\u00e9 depuis la commande:\n\n\necho texte \u00e0 rentrer \n about.md\n\n\n\nVers le d\u00e9p\u00f4t github: \nhttps://github.com/tUlille1/teensyArcadeBattler", 
             "title": "About"
         }, 
         {
             "location": "/about/#a-propos", 
-            "text": "cr\u00e9\u00e9 depuis la commande:  echo texte \u00e0 rentrer   about.md", 
+            "text": "cr\u00e9\u00e9 depuis la commande:  echo texte \u00e0 rentrer   about.md  Vers le d\u00e9p\u00f4t github:  https://github.com/tUlille1/teensyArcadeBattler", 
             "title": "A propos"
         }
     ]
