@@ -35,7 +35,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="githubMKDocs/" class="icon icon-home"> My Docs</a>
+        <a href="." class="icon icon-home"> My Docs</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -47,23 +47,24 @@
 	<ul class="current">
 	  
           
-            <li class="toctree-l1">
-		
-    <a class="" href="githubMKDocs/">GitHubetMKDocs</a>
-	    </li>
-          
             <li class="toctree-l1 current">
 		
     <a class="current" href=".">Home</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
+    <li class="toctree-l2"><a href="#vers-une-publications-efficaces-de-projets-etudiants-collaboratifs">Vers une publications efficaces de projets (étudiants) collaboratifs</a></li>
+    
+
+    <li class="toctree-l2"><a href="#creation-de-votre-premier-depot-github">Création de votre premier dépôt GitHub</a></li>
+    
+
+    <li class="toctree-l2"><a href="#creation-dune-documentation-a-laide-de-mkdocs">Création d'une documentation à l'aide de MKdocs</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#commands">Commands</a></li>
+            <li><a class="toctree-l3" href="#installation-de-mkdocs">Installation de MKdocs</a></li>
         
-            <li><a class="toctree-l3" href="#project-layout">Project layout</a></li>
+            <li><a class="toctree-l3" href="#creation-de-votre-projet">Création de votre projet</a></li>
         
         </ul>
     
@@ -86,7 +87,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="githubMKDocs/">My Docs</a>
+        <a href=".">My Docs</a>
       </nav>
 
       
@@ -94,7 +95,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="githubMKDocs/">Docs</a> &raquo;</li>
+    <li><a href=".">Docs</a> &raquo;</li>
     
       
     
@@ -108,21 +109,41 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    about.md  # Other markdown pages, images and other files.
+                <h1 id="vers-une-publications-efficaces-de-projets-etudiants-collaboratifs">Vers une publications efficaces de projets (étudiants) collaboratifs</h1>
+<p>Que celui qui a déjà bidouillé avec un arduino et  n'est jamais tombé sur un dépôt github (comme ceux d'<a href="https://github.com/adafruit">adafruit</a> ou de <a href="https://github.com/sparkfun">sparkfun</a>) me jette la première pierre :wink:
+  Pour ceux qui l'ignorent, un dépôt comme ceux que l'on trouve sur <a href="https://github.com/sparkfun">GitHub</a> est un espace dédié à l'hébergement de code informatique. Pour ma part, ayant toujours travaillé seul sur des développement de faible envergure, je n'ai jamais par le passé été amené à utiliser un hébergement en ligne. Je m'en tenais aux traditionnels projet1version1.ino, projetv2a1.ino... et les fichiers s'accumulaient. Ne m'y retrouvant pas toujours, je refaisais souvent la même chose dix fois... Avec l'utilisation des dépôts, cette époque est revolue et je souhaite que tout étudiant qui souhaite se lancer dans un projet en électronique du type de ceux que l'on trouve un peu partout sur le web puisse le faire d'une façon organisée, efficace et qui pourra être passé à la postérité...</p>
+<p>Le but de ce dépôt est de permettre aux lecteurs (public étudiant en électronique initialement) de se familiariser avec une façon de travailler utilisant git, le langage markdown, MKDocs,... notions qui ne sont pas toujours abordées au cours d'un cursus du type Electrical Engineering. Ce travail s'appuye sur des réalisations éffectuées au fablab situé sur le campus de l'Université de Lille 1, département EEA.
+  Le rédacteur de ce dépôt n'étant pas informaticien, s'éfforcera d'être le plus précis sur les termes et techniques employées mais le lecteur plus aguérri est évidement invité à me contacter pour échanger sur ce sujet.</p>
+<p>Pour finir, le titre teensyArcadeBattler, est en fait un projet personnel de rélaisation d'une interface midi simple pour controller des logiciels de création musical (ou DAWs, type Ableton, cubase...). Ceci servira de support et d'exemple pour illustrer les différentes étapes de création d'un projet.</p>
+<p>Au niveau de la documentation d'un projet, pour des projets très simple et cours, le fichier README.md (le fichier que vous lisez actuellement :smile: ) peut faire l'affaire mais un autre outils, <a href="http://www.mkdocs.org/">MKdocs</a>, fera encore plus l'affaire!</p>
+<h1 id="creation-de-votre-premier-depot-github">Création de votre premier dépôt GitHub</h1>
+<p>Rendez vous sur <a href="http://github.com">GitHub</a> et laissez vous guider dans la création de votre identifiant et de votre dépôt. N'oubliez pas qu'il faut créer au moins un fichier dans votre dépôt pour que vous puissiez ensuite l'utiliser (c'est pourquoi <a href="http://github.com">GitHub</a> vous propose de créer pour vous le fichier README.md)</p>
+<p>Une fois créé, votre dépôt est en ligne et on peut donc l'atteindre depuis n'importe quel ordinateur connecté au web. C'est ici qu'il faut bien comprendre comment nous allons travailler avec notre dépôt GitHub: nous allons rapatrier l'ensemble du dépôt sur notre ordinateur, créer ou modifier les différents fichiers de code et une fois que nous estimons avoir fini une tâche rééxpédier les mofications vers le dépôt. Ce sont les opérations de clonage et de push.</p>
+<h1 id="creation-dune-documentation-a-laide-de-mkdocs">Création d'une documentation à l'aide de MKdocs</h1>
+<p>La documentation que je vais créer sera du même type que ce que l'on peut trouver pour un projet comme <a href="http://docs.micropython.org/en/latest/esp8266/">MicroPython</a></p>
+<h2 id="installation-de-mkdocs">Installation de MKdocs</h2>
+<p>Ici pas de mystère, on suit les explications des développeurs sur le site <a href="http://www.mkdocs.org/#installation">MKDocs.org</a>. C'est un programme écrit en python donc vous devez avoir python installé sur votre ordinateur.
+Je ne l'ai pas mentionné auparavant mais tout se passe dans le terminal de votre système (pour l'instant je ne décrie que la démarche pour un système UNIX type ubuntu ou mac os; l'explication pour windows suivra). Vous devez être à l'aise dans la navigation entre les dossiers. Si ce n'est pas le cas (XXXXXXXReference à rajouter)</p>
+<h2 id="creation-de-votre-projet">Création de votre projet</h2>
+<p>Depuis le terminal, naviguez jusque dans le répertoire du dépôt que vous avez clôné. Une fois dans le dossier, la commande:</p>
+<pre><code>mkdocs new my-project
 </code></pre>
+<p>va créer un nouveau projet MKDocs intitulé my-project.
+Une fois créé, toujours dans le terminal, rentrez dans le répertoire du projet:</p>
+<pre><code>cd my-project
+</code></pre>
+<p>La commande:</p>
+<pre><code>mkdocs serve
+</code></pre>
+<p>va permettre en quelque sorte de créer un seerveur local sur votre ordinateur de manière à prévisualiser votre documentation.
+Une fois que tout vous semble correct, la commande:</p>
+<pre><code>mkdocs build --clean
+</code></pre>
+<p>va permettre de générer tous les fichiers et dossiers nécessaires à la publication de la documentation en ligne. Une fois fait, une dernière commande va permmettre de pousser la documentation vers github:</p>
+<pre><code>mkdocs gh-deploy
+</code></pre>
+<p>Une fois effectué, vous obtenez un message vous disant que votre documentaiton sera rapidement disonible ainsi qu'une adresse. Dans mon cas: <a href="https://tulille1.github.io/teensyArcadeBattler/">https://tulille1.github.io/teensyArcadeBattler/</a></p>
+<p>Lorsque vous voudrez effectuer des modifications dans la documentation, il faudra réitérer l'étape de <em>build</em> et l'étape de <em>deploy</em></p>
               
             </div>
           </div>
@@ -132,8 +153,6 @@ docs/
       
         <a href="about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="githubMKDocs/" class="btn btn-neutral" title="GitHubetMKDocs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -159,8 +178,6 @@ docs/
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="githubMKDocs/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
       
         <span style="margin-left: 15px"><a href="about/" style="color: #fcfcfc">Next &raquo;</a></span>
       
@@ -173,5 +190,5 @@ docs/
 
 <!--
 MkDocs version : 0.16.3
-Build Date UTC : 2017-10-10 13:36:12
+Build Date UTC : 2017-10-10 13:39:38
 -->
